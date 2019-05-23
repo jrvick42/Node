@@ -1,9 +1,10 @@
-# Node
-Base NodeJS setup with Express Web Framework and EJS templating engine.
+# Node JS Installation and Setup with Express and EJS
 
 Use this set of steps to setup a base Node JS server with npm.
 
 *** This has been tested on Ubuntu 18.04+ only, however it should would for most Debian based distros. Make sure to apt-get update prior to continuing with this tutorial ***
+
+
 
 
 Install Node JS and NPM
