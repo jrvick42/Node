@@ -7,11 +7,15 @@ Use this set of steps to setup a base Node JS server with npm.
 
 
 // Install Node JS and NPM
+```
 apt-get install nodejs npm
+```
 
 // Make your site directory
+```
 mkdir nodesite
 cd nodesite
+```
 
 // Initialize and install express and othe rpackages that will be used by the server
 ```
@@ -24,8 +28,10 @@ npm install --save nodemon
 ```
 
 // Create your server file
+```
 touch app.js
 vim app.js
+```
 
 ```javascript
 const express = require('express')
@@ -41,10 +47,12 @@ app.get('/', (req, res) => res.render('./pages/home'))
 app.listen(port, () => console.log('Listening on port ' + port.toString()))
 ```
 // Create your pages
+```
 mkdir views
 mkdir views/pages
 touch views/pages/home.ejs
 vim views/pages/home.ejs
+```
 
 ```html5
 <!DOCTYPE html>
