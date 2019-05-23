@@ -6,18 +6,18 @@ Use this set of steps to setup a base Node JS server with npm.
 *** This has been tested on Ubuntu 18.04+ only, however it should would for most Debian based distros. ***
 
 
-// Install Node JS and NPM
+Install Node JS and NPM
 ```
 apt-get install nodejs npm
 ```
 
-// Make your site directory
+Make your site directory
 ```
 mkdir nodesite
 cd nodesite
 ```
 
-// Initialize and install express and othe rpackages that will be used by the server
+Initialize and install express and othe rpackages that will be used by the server
 ```
 npm init
 npm install --save express
@@ -27,7 +27,7 @@ npm install --save pm2
 npm install --save nodemon
 ```
 
-// Create your server file
+Create your server file
 ```
 touch app.js
 vim app.js
@@ -46,7 +46,7 @@ app.get('/', (req, res) => res.render('./pages/home'))
 
 app.listen(port, () => console.log('Listening on port ' + port.toString()))
 ```
-// Create your pages
+Create your pages
 ```
 mkdir views
 mkdir views/pages
