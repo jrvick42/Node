@@ -1,5 +1,5 @@
 # Node
-Base NodeJS setup
+Base NodeJS setup with Express Web Framework and EJS templating engine.
 
 Use this set of steps to setup a base Node JS server with npm.
 
