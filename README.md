@@ -20,6 +20,9 @@ cd nodesite
 Initialize and install express and othe rpackages that will be used by the server
 ```
 npm init
+```
+You can just Enter through the questions that NPM will ask about your site. We will revisit the tests directive later in the PM2 and nodemon setup.
+```
 npm install --save express
 npm install --save path
 npm install --save ejs
