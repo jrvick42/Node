@@ -14,12 +14,14 @@ mkdir nodesite
 cd nodesite
 
 // Initialize and install express and othe rpackages that will be used by the server
+```
 npm init
 npm install --save express
 npm install --save path
 npm install --save ejs
 npm install --save pm2
 npm install --save nodemon
+```
 
 // Create your server file
 touch app.js
