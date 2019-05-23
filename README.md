@@ -54,3 +54,5 @@ vim views/pages/home.ejs
 
 To simply run the server with node you can now use `node app.js` to star the server.
 To view the site visit localhost:YourPort in a browser.
+
+*** PM2 and nodemon instructions will be added soon ***
